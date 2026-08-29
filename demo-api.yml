@@ -1,15 +1,14 @@
 server:
   port: 8082
 
-spring: 
+spring:
   boot:
     admin:
-      client: 
+      client:
         url: http://localhost:1111
 
-managment: 
-  endpoints: 
-    web: 
-      exposure: 
+management:
+  endpoints:
+    web:
+      exposure:
         include: "*"
-  
